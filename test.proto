@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package grpc.proto;
+
+
+option go_package="github.com/mincTeja/protobuf/protogen/test/v1;test";
+
+
+message Hello{
+    string name = 1;
+}
